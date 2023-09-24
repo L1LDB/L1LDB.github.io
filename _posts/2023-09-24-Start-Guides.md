@@ -1,8 +1,6 @@
 ---
 title: 게으름은 악마의 베개와 같다. 
-date: 2023-09-24 17:00:00
-categories: [LILDB]
-tags: [guides]     # TAG names should always be lowercase
+date: 2023-09-24 17:00:00 +09:00
 ---
 
 # **🎲 스터디 진행 규칙**
