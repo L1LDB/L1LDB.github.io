@@ -190,7 +190,7 @@ File[] hiddenFiles = new File(".").listFiles(File::isHidden);
 - 람다 : 익명 함수
   - 람다를 포함하여 함수도 값으로 취급 가능
 
-![ch1-img](./ch1-img1.png)
+![ch1-img](_posts/modern-java-in-action/chap1.-자바-8,-9,-10,-11-:-무슨-일이-일어나고-있는가?/2023-09-23-김수경/img.png)
 
 - 숨겨진 파일 필터링 방식
 
