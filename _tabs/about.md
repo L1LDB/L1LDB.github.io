@@ -7,7 +7,7 @@ order: 4
 ## **🎲 스터디 진행 규칙**
 
 1. 기본 진행은 [Coding-Interview-University](https://github.com/jwasham/coding-interview-university) 를 참고하며 해당 순서대로 진행합니다.
-2. 이론 공부는 **📒 Cracking the Coding Interview(**[🔗 \*\*국문](https://drive.google.com/file/d/1yea6Sm0N2pxsE0TNe8w8fLY-ev7Qu5CE/view?usp=sharing) |** [🔗 영문](https://github.com/Avinash987/Coding/blob/master/Cracking-the-Coding-Interview-6th-Edition-189-Programming-Questions-and-Solutions.pdf)**)\*\* 책을 참고합니다.
+2. 이론 공부는 **📒 Cracking the Coding Interview([🔗 국문](https://drive.google.com/file/d/1yea6Sm0N2pxsE0TNe8w8fLY-ev7Qu5CE/view?usp=sharing) |** [🔗 영문](https://github.com/Avinash987/Coding/blob/master/Cracking-the-Coding-Interview-6th-Edition-189-Programming-Questions-and-Solutions.pdf)) 책을 참고합니다.
 
    💬 추가 공부가 필요하다면 [Coding-Interview-University](https://github.com/jwasham/coding-interview-university) 이론 챕터의 영상을 통해 공부하면 좋아요!
 
