@@ -41,12 +41,13 @@
 ├── _plugins
 ├── _posts
 │   ├── algorithm # 알고리즘
-│   ├── modern-java-in-action # 자바 프로그래밍 도서 - 모던 자바 인 액션
-│   ├── extreme-c # C 프로그래밍 도서 - 전문가를 위한 C
+│   │   └── {문제명 | 챕터명}
+│   │       └── {날짜}-{작성자}
+│   │           └── ... {포스팅 관련 에셋} ...
+│   │           └── {문제명 | 챕터명}.md
 │   ├── coding-interview-univ # 코딩 인터뷰 대학
-│   │   └── {날짜}-{작성자}-{포스팅 제목}
-│   │       └── {날짜}-{작성자}-{포스팅 제목}.md
-│   │       └── ... {포스팅 관련 에셋} ...
+│   ├── extreme-c # C 프로그래밍 도서 - 전문가를 위한 C
+│   ├── modern-java-in-action # 자바 프로그래밍 도서 - 모던 자바 인 액션
 │   └── common # 공통 문서
 ├── _site
 ├── _tabs
@@ -70,8 +71,8 @@
 
 ```shell
 $ git checkout -b {개인-github-id}
-
-# ... 공부 내용 md 파일 개인 브랜치로 push ...
+$ git pull main # main 브랜치와 conflict 해결
+$ git push # 공부 내용 md 파일 개인 브랜치로 push
 
 $ git checkout main
 $ git pull {개인-github-id}
