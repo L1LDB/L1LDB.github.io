@@ -2,7 +2,7 @@
 title: ✋🏻 Study Guide
 author: LILDB
 date: 2023-09-24 17:00:00 +09:00
-categories: [Common]
+categories: [LILDB]
 tags: [Introduction, TEAM LILDB]
 render_with_liquid: false
 ---
