@@ -1,0 +1,17 @@
+## Template › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md#setting-author-url
+# -------------------------------------
+# {author_id}:
+#   name: {full name}
+#   twitter: {twitter_of_author}
+#   url: {homepage_of_author}
+# -------------------------------------
+
+LILDB:
+  name: LILDB
+  github: l1ldb
+  url: https://github.com/l1ldb
+
+olive-su:
+  name: 김수경
+  github: olive-su
+  url: https://github.com/olive-su
