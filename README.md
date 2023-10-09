@@ -1,49 +1,135 @@
-# Chirpy Starter
+# 🛌 LILDB Team Blog
+
+| _Laziness is the devil's pillow. (Danish Proverb)_
 
 [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
 [![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+**[🛌 LILDB 팀 블로그](https://l1ldb.github.io)**
+**[🎲 LILDB 스터디 진행 규칙](https://l1ldb.github.io/about)**
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+<br>
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+#### ✏️ Study Contents
+
+- **코딩 인터뷰 대학** : 5문제씩 연습 문제 만들기
+- **프로그래밍 언어** : JAVA & C 챕터 별로 학습
+- **알고리즘** : 매주 3문제풀고 풀이 진행
+  - _재도전 → 차주까지 다시 풀어오기_
+- 포트폴리오 다듬기 **→ 매주 업데이트**
+
+<br>
+
+#### 🔖 [Github.io](l1ldb.github.io) Personal Mark
+
+| 🐹                                               | 🐢                                       | 🦊                                       | 🐣                                       |
+| ------------------------------------------------ | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
+| [@chaeshee0908](https://github.com/chaeshee0908) | [@gani0325](https://github.com/gani0325) | [@gengminy](https://github.com/gengminy) | [@olive-su](https://github.com/olive-su) |
+
+<br>
+<br>
+
+---
+
+## 📁 Files
 
 ```shell
 .
+├── README.md
 ├── _config.yml
+├── _data
 ├── _plugins
+├── _posts
+│   ├── algorithm # 알고리즘
+│   ├── modern-java-in-action # 자바 프로그래밍 도서 - 모던 자바 인 액션
+│   ├── extreme-c # C 프로그래밍 도서 - 전문가를 위한 C
+│   ├── coding-interview-univ # 코딩 인터뷰 대학
+│   │   └── {날짜}-{작성자}-{포스팅 제목}
+│   │       └── {날짜}-{작성자}-{포스팅 제목}.md
+│   │       └── ... {포스팅 관련 에셋} ...
+│   └── common # 공통 문서
+├── _site
 ├── _tabs
+├── assets
 └── index.html
 ```
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+<br>
 
-## Prerequisites
+## 📮 Posting
 
-Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of
-the basic environment. [Git](https://git-scm.com/) also needs to be installed.
+| 💡 _팀 블로그 설정 변경 시에는 `main` 에서 작업해주세요!_
 
-## Installation
+1. 각자의 깃허브 아이디로 브랜치를 생성합니다.
+2. 해당 주차의 포스팅을 작성해서 브랜치로 파일을 업로드합니다.
+3. `main` 브랜치에서 각자 브랜치에 올린 파일을 `pull` 해서 빌드를 진행합니다.
 
-Sign in to GitHub and [**use this template**][use-template] to generate a brand new repository and name it
-`USERNAME.github.io`, where `USERNAME` represents your GitHub username.
+<br>
 
-Then clone it to your local machine and run:
+- 워크플로우 예시
 
-```console
-$ bundle
+```shell
+$ git checkout -b {개인-github-id}
+
+# ... 공부 내용 md 파일 개인 브랜치로 push ...
+
+$ git checkout main
+$ git pull {개인-github-id}
+$ git push
 ```
+
+<br>
+
+- 컨벤션
+
+  - 커밋 메시지
+
+    `{Title}: {Commit Message}`
+
+    e.g. `post: [n주차_작성자] 3. 이분 탐색과 비트 연산`
+
+    e.g. `update: [n주차_작성자] 3. 이분 탐색과 비트 연산`
+    <br>
+
+    | Title    | Description         |
+    | -------- | ------------------- |
+    | settings | 세팅                |
+    | post     | 팀 블로그 글 포스팅 |
+    | update   | 글 수정             |
+
+    <br>
+
+  - 포스팅 내용
+    - 제목 : `{emoji} {title}`
+    - 작성자 : `{github id}`
+    - 태그 : `카테고리`, `n주차`, `작성자` ...
+      <br>
+    - [ 알고리즘 ]
+      - 문제 링크, 해설, 사용 언어, 시간, 메모리, 코드
+      - _재시도 필요한 문제 → 제목에 '🔄' 해당 이모지 추가 & 재시도 후 코드 업데이트_
+
+<br>
+
+## Theme
+
+[**🔗 Chirpy**][chirpy]
+
+<br>
 
 ## Usage
 
-Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
+| 💡 _포스팅 올리기 전에 로컬에서 한번 확인하고 업로드 해주세요!_
+
+<br>
+
+- 로컬에서 확인하는 방법
+
+```shell
+$ bundle # Install dependencies
+$ bundle exec jekyll s # Running Local Server
+```
+
+<br>
 
 ## License
 
@@ -51,6 +137,6 @@ This work is published under [MIT][mit] License.
 
 [gem]: https://rubygems.org/gems/jekyll-theme-chirpy
 [chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[use-template]: https://github.com/cotes2020/chirpy-starter/generate
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
 [mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+
+<br>
