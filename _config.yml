@@ -20,10 +20,10 @@ timezone: Asia/Seoul
 
 title: LILDB # the main title
 
-tagline: LILDB Study Books # it will display as the sub-title
+tagline: LILDB CS Study # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  LILDB Study Books.
+  LILDB CS Study - Laziness is the devil's pillow.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://l1ldb.github.io/"
@@ -66,7 +66,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: # [light|dark]
+theme_mode: # [light | dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
@@ -76,7 +76,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: "assets/img/common/lildb.png"
 
 # boolean type, the global switch for TOC in posts.
 toc: true
